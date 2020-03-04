@@ -1,4 +1,5 @@
 import GoogleMapReact from 'google-map-react';
+import { Component } from 'react';
 
 class MapContainer extends Component{
 
@@ -8,7 +9,7 @@ class MapContainer extends Component{
                 <GoogleMapReact
                     bootstrapURLKeys = {
                         {
-                            key: '{MY_API_KEY}',
+                            key: '{AIzaSyCD2T2tsJ_dscVLPfKbCxCywXn5kl6AhlA}',
                             libraries: ['places', 'directions'] 
                         }
                     }
