@@ -1,7 +1,18 @@
-import {Autocomplete} from 'antd';
-import { Component } from 'react';
+import React, { Component } from 'react';
+import {AutoComplete} from 'antd'
 
 class MapAutoComplete extends Component{
+
+    constructor(props) {
+        super(props);
+        this.state = {
+          suggestionts: [],
+          dataSource: [],
+          singaporeLatLng: this.props.singaporeLatLng,
+          autoCompleteService: this.props.autoCompleteService,
+          geoCoderService: this.props.geoCoderService,
+        }
+      }
 
     // runs a search on the current value as the user tu=ypes in the Autocomplete field
     handleSearch = ((value) => {
@@ -40,7 +51,7 @@ class MapAutoComplete extends Component{
     render(){
         const { dataSource } = this.setState;
         return(
-            <Autocomplete 
+            <AutoComplete 
                 dataSource = { dataSource }
                 onSearch = { this.handleSearch }
                 onSelect = { this.onSelect }
@@ -49,3 +60,5 @@ class MapAutoComplete extends Component{
         )
     }
 }
+
+export default MapAutoComplete
