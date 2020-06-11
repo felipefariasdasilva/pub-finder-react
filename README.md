@@ -7,26 +7,43 @@ Um parágrafo simples dando uma descrição sobre o projeto
 As instruções a seguir irão lhe proporcionar uma cópia deste projeto e de como rodar em sua máquina local para propósito de desenvolvimento e testes. Veja na sessão de [deployment](#Deployment) para saber com mais detalhes de como dar deploy em sua aplicação.
 
 ### Pre-requisitos
-
 Dependências necessárias para se instalar o software e como instalá-las.
 
+1. Tenha certeza que você tenha o node instalado em sua máquina (https://nodejs.org/en/)
+
 ```
-Dê um exemplo
+node -v
+```
+2. E também o gerenciador de pacotes NPM (https://www.npmjs.com/)
+```
+npm -v
 ```
 
 ### Instalação
 
-Passo a passo seguidos de exemplos mostrando como se obter o ambiente de desenvolvimento rodando. É uma boa prática colocar o modo de instalação para Windows, macOS e para as principais distribuições Linux.
+Para rodar a aplicação, execute os próximos passos:
 
-Explique o que essa etapa será
+1. Faça o clone do projeto
 ```
-Dê um exemplo
+https://github.com/felipefariasdasilva/login-react.git
 ```
 
-E repita
+2. Entre na pasta
 
 ```
-Até acabar
+cd login-react
+```
+
+3. E rode o seguinte comando para inicializar a aplicação
+
+```
+npm start
+```
+
+4. Acesse no seu navegador o link de execução
+
+```
+http://localhost:3000
 ```
 
 Finalize com um exemplo obtendo dados do sistema ou fazendo uma pequena demostração do funcionamento da aplicação
@@ -68,11 +85,11 @@ Por favor leia [CONTRIBUTING.md]() para mais detalhes a respeito do nosso códig
 
 ## Versionamento
 
-Nós usamos [SemVer](http://semver.org/) para versionamento. Para visualizar as versões disponíveis veja [tags nesse repositórios](https://github.com/your/project/tags). 
+Nós usamos [GitHub](https://github.com/ para versionamento. Para visualizar as versões disponíveis veja [tags nesse repositórios](https://github.com/your/project/tags). 
 
 ## Autores
 
-* **Geraldo Braz** - *Trabalho inicial* - [@geraldobraz](https://github.com/geraldobraz)
+* **Felipe Farias** - *Trabalho inicial* - [@felipefariasdasilva](https://github.com/felipefariasdasilva)
 
 Veja também a lista completa de [contribuidores](https://github.com/your/project/contributors) que contribuiram para o desenvolvimento deste projeto.
 
