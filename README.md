@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pub finder
 
-## Available Scripts
+Um parágrafo simples dando uma descrição sobre o projeto 
 
-In the project directory, you can run:
+## Começando
 
-### `yarn start`
+As instruções a seguir irão lhe proporcionar uma cópia deste projeto e de como rodar em sua máquina local para propósito de desenvolvimento e testes. Veja na sessão de [deployment](#Deployment) para saber com mais detalhes de como dar deploy em sua aplicação.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pre-requisitos
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Dependências necessárias para se instalar o software e como instalá-las.
 
-### `yarn test`
+```
+Dê um exemplo
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalação
 
-### `yarn build`
+Passo a passo seguidos de exemplos mostrando como se obter o ambiente de desenvolvimento rodando. É uma boa prática colocar o modo de instalação para Windows, macOS e para as principais distribuições Linux.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Explique o que essa etapa será
+```
+Dê um exemplo
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+E repita
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+Até acabar
+```
 
-### `yarn eject`
+Finalize com um exemplo obtendo dados do sistema ou fazendo uma pequena demostração do funcionamento da aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Executando os testes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Explique como rodar os testes automáticos do seu sistema caso haja algum
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Análise dos testes fim-a-fim
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Explique o que esses testes testam e o porquê.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+Dê um exemplo
+```
 
-### Code Splitting
+### Estilo de criação dos testes
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Explique o que esses testes testam e o porque.
 
-### Analyzing the Bundle Size
+```
+Dê um exemplo
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Deployment
 
-### Making a Progressive Web App
+Adicione notas de como dar deploy do sistema em produção.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Desenvolvido com
+* [ReactJS](https://reactjs.org/) - O framework web utilizado
 
-### Advanced Configuration
+## Contribuições
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Criar um arquivo chamado CONTRIBUTING.md e colocar suas regras para contribuição nesse repositório.
 
-### Deployment
+Por favor leia [CONTRIBUTING.md]() para mais detalhes a respeito do nosso código de contuda e o processo de submissão de pull-requests para nós.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Versionamento
 
-### `yarn build` fails to minify
+Nós usamos [SemVer](http://semver.org/) para versionamento. Para visualizar as versões disponíveis veja [tags nesse repositórios](https://github.com/your/project/tags). 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Autores
+
+* **Geraldo Braz** - *Trabalho inicial* - [@geraldobraz](https://github.com/geraldobraz)
+
+Veja também a lista completa de [contribuidores](https://github.com/your/project/contributors) que contribuiram para o desenvolvimento deste projeto.
+
+## Licença
+
+Esse projeto é licenciado pela MIT License - veja também [LICENSE.md](LICENSE.md) para mais detalhes
+
+## Agradecimentos
+
+* Inspiração
+* etc
